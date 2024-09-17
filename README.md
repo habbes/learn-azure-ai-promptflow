@@ -41,3 +41,15 @@ Build index
 ```cli
 python build_index.py
 ```
+
+Use prompt flow to test chat app
+
+```cli
+pf flow test --flow ./copilot_flow --inputs chat_input="how much do the Trailwalker shoes cost?"
+```
+
+Run the interactive UI
+
+```cli
+pf flow test --flow ./copilot_flow --ui
+```
