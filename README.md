@@ -4,6 +4,22 @@ Based on the tutorial: [Build a custom chat app with the promot flow SDK](https:
 
 ## Basic Dev instructions
 
+Create environment
+
+Windows:
+```cli
+py -3 -m venv .venv
+.venv\scripts\activate
+```
+
+macOS/Linux:
+
+```cli
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+
 Activate the environment
 
 ```cli
