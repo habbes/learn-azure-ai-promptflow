@@ -53,3 +53,9 @@ Run the interactive UI
 ```cli
 pf flow test --flow ./copilot_flow --ui
 ```
+
+Test with chat history
+
+```cli
+pf flow test --flow ./copilot_flow --inputs ./copilot_flow/input_with_chat_history.json
+```
